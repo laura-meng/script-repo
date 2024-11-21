@@ -4,6 +4,7 @@ on:
   schedule:
     # Cron expression for every Monday at midnight UTC
     - cron: "0 0 * * 1"
+  workflow_dispatch:  # Allow manual trigger from the Actions tab
 
 jobs:
   test:
